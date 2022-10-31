@@ -25,14 +25,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Simple Ramen",
+      title: "Example Title",
       filename: "index.html",
       template: "src/template.html",
-    }),
-    new HtmlWebpackPlugin({
-      title: "Menu",
-      filename: "menu.html",
-      template: "src/menu.html",
     }),
   ],
   output: {
